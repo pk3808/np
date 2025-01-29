@@ -1,6 +1,10 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome.js";
 import { Navbar } from "../component/navbar.jsx";
+import Projects from '../routes/projects';
+import About from "../routes/about";
+import Contact from "../routes/contact";
+import ScrollToTop from "~/component/scrollToTop";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -10,8 +14,16 @@ export function meta({ }: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return
-
-    <Welcome />;
-
+  return (
+    <>
+      <Navbar />
+      <main className="">
+        <Welcome />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
+      <ScrollToTop />
+    </>
+  );
 }
