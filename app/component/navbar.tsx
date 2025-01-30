@@ -58,7 +58,7 @@ export const Navbar = () => {
             {["Home", "About", "Projects", "Contact"].map((item, index) => (
               <motion.a
                 key={index}
-                href={`#${item.toLowerCase()}`}
+                href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
                 className="block text-lg font-medium py-2 transition hover:text-pink-300"
                 whileTap={{ scale: 0.95 }}
               >
