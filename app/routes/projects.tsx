@@ -92,9 +92,9 @@ const Projects: React.FC = () => {
     selectedTech === "All" ? projects : projects.filter((p) => p.tech.includes(selectedTech));
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 py-16 px-6">
+    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800  px-6">
       <Navbar />
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto py-20">
         <h2 className="text-3xl md:text-5xl font-extrabold text-white text-center">Projects</h2>
 
         {/* Filter Buttons */}

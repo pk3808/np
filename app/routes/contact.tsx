@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaHeart, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-
+import Navbar from "~/component/navbar";
 // Animation Variants
 const fadeIn = {
   hidden: { opacity: 0, y: 30 },
@@ -31,7 +31,8 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 py-16 px-6 text-pink-900">
+    <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 px-6 text-pink-900">
+      <Navbar />
       <div className="max-w-5xl mx-auto text-center pt-4">
         {/* Header */}
         <motion.h2

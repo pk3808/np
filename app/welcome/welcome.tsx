@@ -22,12 +22,12 @@ export function Welcome() {
         transition={{ duration: 0.8 }}
         className="relative"
       >
-        {/* <motion.img
+        <motion.img
           src="/n.png"
           alt="Profile Picture"
           className="md:w-[300px] w-[200px] h-[200px] md:h-[300px] rounded-full shadow-2xl "
           whileHover={{ scale: 1.05 }}
-        /> */}
+        />
         <div className="absolute inset-0 w-full h-full rounded-full bg-white/10 blur-lg"></div>
       </motion.div>
 
@@ -37,7 +37,7 @@ export function Welcome() {
         initial="hidden"
         animate="visible"
       >
-        {/* {name.map((char, i) => (
+        {name.map((char, i) => (
           <motion.span
             key={i}
             custom={i}
@@ -48,7 +48,7 @@ export function Welcome() {
           >
             {char === " " ? "\u00A0" : char}
           </motion.span>
-        ))} */}
+        ))}
       </motion.h1>
 
       {/* Glassmorphism Effect for Description */}
