@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
             whileHover={{ scale: 1.05 }}
           >
             {isSubmitted ? "Message Sent! 📤" : "Send Message"}
-            <FaHeart className="ml-2" />
+            {/* <FaHeart className="ml-2" /> */}
           </motion.button>
         </motion.form>
 

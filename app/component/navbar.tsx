@@ -5,10 +5,10 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-pink-500 to-purple-500 shadow-md">
+    <nav className="bg-gradient-to-r from-pink-500 to-purple-500 shadow-md ">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo / Branding */}
-        <h1 className="text-white font-extrabold text-2xl tracking-wide">My Website</h1>
+        <h1 className="text-white font-extrabold text-2xl tracking-wide">My Portfolio</h1>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6">
