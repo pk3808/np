@@ -15,7 +15,7 @@ export const Navbar = () => {
           {["Home", "About", "Projects", "Contact"].map((item, index) => (
             <a
               key={index}
-              href={`#${item.toLowerCase()}`}
+              href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
               className="text-white text-lg font-medium transition hover:text-pink-300"
             >
               {item}

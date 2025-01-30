@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Navbar from "~/component/navbar";
 
 // Define Project Type
 type Project = {
@@ -92,6 +93,7 @@ const Projects: React.FC = () => {
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 py-16 px-6">
+      <Navbar />
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-5xl font-extrabold text-white text-center">Projects</h2>
 
