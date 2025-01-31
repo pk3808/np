@@ -53,7 +53,7 @@ export function Welcome() {
 
       {/* Glassmorphism Effect for Description */}
       <motion.div
-        className="md:w-[50%] bg-white/5 backdrop-blur-lg p-6 rounded-lg shadow-lg text-center text-white text-lg md:text-xl leading-relaxed"
+        className="md:w-[50%] bg-white/5 backdrop-blur-lg p-6 mt-4 rounded-lg shadow-lg text-center text-white text-lg md:text-xl leading-relaxed"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.8 }}

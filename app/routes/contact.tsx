@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 px-6 text-pink-900">
       <Navbar />
-      <div className="max-w-5xl mx-auto text-center pt-4">
+      <div className="max-w-5xl mx-auto text-center pt-20">
         {/* Header */}
         <motion.h2
           className="text-4xl md:text-5xl font-extrabold font-cursive"
@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-full border border-pink-400 text-pink-900 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              className="w-full px-4 md:py-2 py-3 rounded-full border border-pink-400 text-pink-900 focus:outline-none focus:ring-2 focus:ring-pink-500"
             />
           </div>
 
@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-full border border-pink-400 text-pink-900 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              className="w-full px-4 md:py-2 py-3 rounded-full border border-pink-400 text-pink-900 focus:outline-none focus:ring-2 focus:ring-pink-500"
             />
           </div>
 
@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
               onChange={handleChange}
               required
               rows={4}
-              className="w-full px-4 py-3 rounded-xl border border-pink-400 text-pink-900 focus:outline-none focus:ring-2 focus:ring-pink-500"
+              className="w-full px-4 md:py-1 py-3 rounded-xl border border-pink-400 text-pink-900 focus:outline-none focus:ring-2 focus:ring-pink-500"
             ></textarea>
           </div>
 

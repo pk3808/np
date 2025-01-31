@@ -12,7 +12,7 @@ export const About: React.FC = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800  px-6 text-white">
      <Navbar />
-      <div className="max-w-5xl mx-auto text-center mt-20">
+      <div className="max-w-5xl mx-auto text-center py-20">
         {/* Header */}
         <motion.h2
           className="text-4xl md:text-5xl font-extrabold"
